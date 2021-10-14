@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Webapp } from "./components";
+import { Webapp } from "./components";
 import "./App.css";
 class App extends React.Component {
   state = {
@@ -11,7 +11,6 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <Header />
         <Webapp />
       </>
     );

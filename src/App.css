@@ -21,9 +21,12 @@ body {
 }
 
 .webapp {
-  width: 768px;
-  height: 1024px;
+  width: 100vw;
+  min-height: 1024px;
   background-color: var(--webapp-bg);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 input:focus {
   outline: solid 2px var(--body-bg);

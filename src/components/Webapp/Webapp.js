@@ -20,7 +20,7 @@ const Webapp = () => {
         params: {
           q: searchQuery,
           page: 1,
-          limit: 10,
+          limit: 20,
         },
       })
       .then((response) => {
@@ -34,7 +34,7 @@ const Webapp = () => {
         params: {
           q: searchQuery,
           page: 1,
-          limit: 10,
+          limit: 20,
         },
       })
       .then((response) => {
@@ -44,7 +44,7 @@ const Webapp = () => {
   };
   return (
     <>
-      <div className="flex justify-center py-10 ">
+      <div className="flex justify-center  ">
         <div className="webapp ">
           <Navbar
             className=""
@@ -52,16 +52,20 @@ const Webapp = () => {
             searchQuery={searchQuery}
             setSearchQuery={setSearchQuery}
           />
-          <div className="flex mx-10 scrollbar">
-            {animeList.map((anime) => (
-              <Animecard value={anime} key={anime.mal_id} />
-            ))}
-          </div>
-
-          <div className="flex mx-10 scrollbar">
-            {mangaList.map((manga) => (
-              <Animecard value={manga} key={manga.mal_id} />
-            ))}
+          <h2 className="font-bold text-green-500 text-lg mx-10 pt-2">
+            Search Results....
+          </h2>
+          <div className="flex">
+            <div className="flex mx-10 scrollbar">
+              {animeList.map((anime) => (
+                <Animecard value={anime} key={anime.mal_id} />
+              ))}
+            </div>
+            <div className="flex mx-10 scrollbar">
+              {mangaList.map((manga) => (
+                <Animecard value={manga} key={manga.mal_id} />
+              ))}
+            </div>
           </div>
         </div>
       </div>
