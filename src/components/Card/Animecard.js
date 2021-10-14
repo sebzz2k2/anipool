@@ -1,3 +1,5 @@
+// animecard component
+
 import React from "react";
 
 function Animecard({ value }) {

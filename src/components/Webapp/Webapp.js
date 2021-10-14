@@ -48,8 +48,8 @@ const Webapp = () => {
 
   return (
     <>
-      <div className="flex justify-center  ">
-        <div className="container ">
+      <div className="">
+        <div className="webapp ">
           <Navbar
             className=""
             handleSearch={handleSearch}

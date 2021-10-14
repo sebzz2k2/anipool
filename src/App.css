@@ -21,12 +21,9 @@ body {
 }
 
 /* entire webapp styles  */
-.container {
-  width: 100vw;
+.webapp {
   min-height: 1024px;
-  background-color: var(--webapp-bg);
-  margin: 0;
-  padding: 0;
+  background-color: var(--body-bg);
   overflow-x: hidden;
 }
 
