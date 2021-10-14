@@ -5,7 +5,7 @@ const Header = () => {
     <div className="">
       <header className="p-7">
         <h1 className="flex justify-center font-bold text-4xl text-green-600 ">
-          Anipool
+          Anipool-Webapp
         </h1>
         <h3 className="flex justify-center font-bold text-gray-200 pt-3 text-2xl ">
           Powered by&nbsp;
@@ -14,7 +14,7 @@ const Header = () => {
             className="underline text-green-600"
             href="https://jikan.docs.apiary.io/"
           >
-            jinken
+            jikan
           </a>
           &nbsp;API
         </h3>

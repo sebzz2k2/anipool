@@ -25,3 +25,7 @@ body {
   height: 1024px;
   background-color: var(--webapp-bg);
 }
+input:focus {
+  outline: solid 2px var(--body-bg);
+  /* border: none; */
+}
