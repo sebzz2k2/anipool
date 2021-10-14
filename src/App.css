@@ -20,7 +20,8 @@ body {
   background-color: var(--body-bg);
 }
 
-entir .container {
+/* entire webapp styles  */
+.container {
   width: 100vw;
   min-height: 1024px;
   background-color: var(--webapp-bg);
@@ -28,10 +29,13 @@ entir .container {
   padding: 0;
   overflow-x: hidden;
 }
+
+/* input focus styles  */
 input:focus {
   outline: solid 2px var(--body-bg);
 }
 
+/* scrollbar syles */
 .scrollbar {
   overflow-x: scroll;
 
