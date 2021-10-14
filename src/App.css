@@ -20,7 +20,7 @@ body {
   background-color: var(--body-bg);
 }
 
-.webapp {
+entir .container {
   width: 100vw;
   min-height: 1024px;
   background-color: var(--webapp-bg);
