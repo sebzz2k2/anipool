@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = (props) => {
   return (
     <>
-      <nav className=" bg-green-500 flex justify-between items-center p-2">
+      <nav className=" bg-green-500 flex justify-between items-center  p-2">
         <p className="font-semibold text-gray-200 text-xl">Anipool</p>
         <form action="" onSubmit={props.handleSearch}>
           <input

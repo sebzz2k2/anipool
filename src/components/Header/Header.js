@@ -13,6 +13,8 @@ const Header = () => {
           <a
             className="underline text-green-600"
             href="https://jikan.docs.apiary.io/"
+            target="_blank"
+            rel="noreferrer"
           >
             jikan
           </a>
