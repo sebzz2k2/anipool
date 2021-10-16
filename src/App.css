@@ -22,7 +22,7 @@ body {
 
 /* entire webapp styles  */
 .webapp {
-  min-height: 1024px;
+  /* min-height: 1024px; */
   background-color: var(--body-bg);
   overflow-x: hidden;
 }
@@ -35,6 +35,7 @@ input:focus {
 /* scrollbar syles */
 .scrollbar {
   overflow-x: scroll;
+  overflow-y: hidden;
 
   /*  Hide scrollbar for Firefox */
   scrollbar-width: none;
